@@ -19,6 +19,11 @@ var sniffer = Sniffer();
 // start sniffing on channel 5
 sniffer.start(5);
 
+// or, with an optional callback
+sniffer.start(5, function(file) {
+  // `file` is the path to the capture file
+});
+
 // stop sniffing on channel 5
 sniffer.stop(5);
 ```
