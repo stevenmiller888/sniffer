@@ -1,5 +1,5 @@
 
-0.0.2 / October 05, 2015
+0.1.0 / October 05, 2015
 
   * Added callback for path to capture file
 
